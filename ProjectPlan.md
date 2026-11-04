@@ -10,8 +10,9 @@ Our four-person team will share responsibility for research, decisions, document
 
 -  Krissy Ho — Collect and clean housing price data from Zillow. Standardize state names and dates.
 -  Amanda Dorado — Collect and clean household income data from the U.S. Census Bureau. Handle missing values and inconsistent formatting.
-- BJ Mensah — Collect and clean unemployment and mortgage interest rate data from FRED. Standardize time periods.
-- Ben Liang - Lead the integration of all datasets, check data quality, and help develop the final analysis.
+- BJ Mensah — Collect and clean unemployment data from FRED. Standardize time periods.
+- Ben Liang - Collect and clean mortgage interest rate data.
+- BJ & Ben coordanate the integration of all datasets, check data quality, and help develop the final analysis.
 
 All four members will collaborate on research questions, documentation, GitHub updates, and reviewing the final results.
 
@@ -36,9 +37,9 @@ All four members will collaborate on research questions, documentation, GitHub u
 
 | Task | Description | Deadline | Responsible Members |
 |---|---|---|---|
-| Data Collection | Download housing price, income, unemployment, and mortgage rate datasets from their sources. | October 23, 2026 | Krissy, BJ Amanda |
-| Data Cleaning | Handle missing values, standardize state names and dates, and organize datasets for integration. | November 2, 2026 | Krissy, Amanda, BJ |
-| Data Integration | Combine datasets using state and year, and check for duplicate or missing records. | November 12, 2026 | Ben, with support from all members |
+| Data Collection | Download housing price, income, unemployment, and mortgage rate datasets from their sources. | October 23, 2026 | Krissy, BJ, Amanda, Ben |
+| Data Cleaning | Handle missing values, standardize state names and dates, and organize datasets for integration. | November 2, 2026 | Krissy, Amanda, BJ, Ben |
+| Data Integration | Combine datasets using state and year, and check for duplicate or missing records. | November 12, 2026 | Ben & BJ, with support from all members |
 | Interim Status Report | Document completed work, challenges, and remaining tasks. Submit the status report. | November 19, 2026 | All members |
 | Data Analysis | Analyze relationships between housing prices and economic conditions using summary statistics and visualizations. | November 27, 2026 | All Members |
 | Final Documentation & Submission | Complete the final report, review code, and organize the GitHub repository for submission | December 4-7, 2026| All members |
