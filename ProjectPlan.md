@@ -36,7 +36,7 @@ All four members will collaborate on research questions, documentation, GitHub u
 
 | Task | Description | Deadline | Responsible Members |
 |---|---|---|---|
-| Data Collection | Download housing price, income, unemployment, and mortgage rate datasets from their sources. | October 23, 2026 | Krissy, BJ Amanda |
+| Data Collection | Download housing price, income, unemployment, and mortgage rate datasets from their sources. | October 23, 2026 | Krissy, BJ, Amanda |
 | Data Cleaning | Handle missing values, standardize state names and dates, and organize datasets for integration. | November 2, 2026 | Krissy, Amanda, BJ |
 | Data Integration | Combine datasets using state and year, and check for duplicate or missing records. | November 12, 2026 | Ben, with support from all members |
 | Interim Status Report | Document completed work, challenges, and remaining tasks. Submit the status report. | November 19, 2026 | All members |
