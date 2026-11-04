@@ -10,8 +10,9 @@ Our four-person team will share responsibility for research, decisions, document
 
 -  Krissy Ho — Collect and clean housing price data from Zillow. Standardize state names and dates.
 -  Amanda Dorado — Collect and clean household income data from the U.S. Census Bureau. Handle missing values and inconsistent formatting.
-- BJ Mensah — Collect and clean unemployment and mortgage interest rate data from FRED. Standardize time periods.
-- Ben Liang - Lead the integration of all datasets, check data quality, and help develop the final analysis.
+- BJ Mensah — Collect and clean unemployment data from FRED. Standardize time periods.
+- Ben Liang - Collect and clean mortgage interest rate data.
+- BJ & Ben coordanate the integration of all datasets, check data quality, and help develop the final analysis.
 
 All four members will collaborate on research questions, documentation, GitHub updates, and reviewing the final results.
 
