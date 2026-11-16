@@ -31,3 +31,15 @@ In the notebook, I converted the dates to a proper date format, made sure all un
 One challenge I ran into was that FIPS codes like "06" for California lose their leading zero when loaded with pandas, which breaks the join with the Census data. I fixed this by saving FIPS codes as two-character text and loading them as strings.
 
 Moving forward, I will work with Ben to combine the housing, income, unemployment, and mortgage datasets by state and year. We also need to decide as a team how to handle 2020, which is missing from the Census data. I will also add SHA-256 checksums and split my notebook into separate scripts for our final workflow.
+
+### Krissy Ho — Update for Milestone 3
+
+For this milestone, I was responsible for collecting and cleaning the Zillow Home Value Index (ZHVI) dataset. This dataset provides housing values across different states in the U.S. and will help us look at how housing prices relate to factors like household income, unemployment rates, and mortgage interest rates from 2015 to 2024.
+
+I started by downloading the Zillow Home Value Index (ZHVI) dataset from Zillow Research, which included monthly home values dating back to 2000 and several columns that weren't needed for our project. I used Microsoft Excel to remove the unnecessary columns and narrow the data down to 2015–2024. Since we're planning to combine our datasets by state and year, I calculated the average home value for each year using Excel formulas and reorganized the data into three columns: State, Year, and Avg_Home_Values.
+
+After cleaning, I checked for missing values and made sure all 50 states were included. I also removed Washington, D.C., since we're focusing on the 50 states, and made sure Wyoming was included in the final dataset. The cleaned dataset now contains 500 records, with 10 years of housing data for each state. I saved the final dataset as a CSV file and uploaded it to our shared GitHub repository (zillow_home_values_cleaned.csv).
+
+One challenge I ran into was that the original Zillow dataset had a separate column for every month, which made it harder to work with and combine with our other datasets. To fix this, I reorganized the data so that each row represented one state and year instead. I also had to double-check that I was averaging the correct months for each year and that all the states were accounted for.
+
+Moving forward, I'll work with my teammates to make sure the Zillow data can be properly combined with the income, unemployment, and mortgage datasets. We may need to make a few more formatting adjustments so that everything matches up correctly. Once the datasets are integrated, I also plan to help analyze housing price trends and see how they relate to changes in economic conditions over time.
